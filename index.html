@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="app.css">
+	<title>Static-Resume</title>
+</head>
+
+<body>
+<div class="container" id="RESUME-GENERATE">
+	<div class="main-heading">
+		<h1>RESUME BY NEHA ARSHAD</h1>
+
+		<div class="Row">
+
+			<div class="column-prsnl-info">
+				
+				<h2>Presnol Information</h2>
+
+				<div class="form-group">
+					<label for="namefield">First  Name</label>
+					<input type="text" id="namefield" placeholder="Enter here" class="form-control">
+</div>
+<div class="form-group">
+					<label for="namefield">Last  Name</label>
+					<input type="text" id="lastnamefield" placeholder="Enter here" class="form-control">
+</div>
+
+<div class="form-group">
+	<label for="Emailfield">Your Email</label>
+	<input type="text" id="Emailfield" placeholder="Enter here" class="form-control">
+</div>
+
+<div class="form-group">
+	<label for="contactfield">Your Contact</label>
+	<input type="text" id="contactfield" placeholder="Enter here" class="form-control">
+</div>
+
+<div class="form-group">
+	<label for="Addressfield">Your Address</label>
+	<textarea id="Addressfield" placeholder="Enter here" class="form-control" rows="5"></textarea>
+</div>
+
+<p>Social Links</p>
+
+<div class="social-links">
+	<label for="fb-field">Facebook Link</label>
+	<input type="text" id="fbfield" placeholder="type here" class="form-control">
+</div>
+
+<div class="social-links">
+	<label for="insta-field">Instagram Link</label>
+	<input type="text" id="instafield" placeholder="type here" class="form-control">
+</div>
+
+<div class="social-links">
+	<label for="Linkdin">Linkdin Link</label>
+	<input type="text" id="linkdinfeild" placeholder="type here" class="form-control">
+</div>
+
+<div class="social-links">
+	<label for="github-field">Github Link</label>
+	<input type="text" id="githubfield" placeholder="type here" class="form-control">
+</div>
+</div>
+
+<div class="colmun-prof-row">
+	<h2>Professinol information</h2>
+
+		<div class="form-group">
+			<label for="edu-field">EDUCATION</label>
+			<textarea id="edufield" placeholder="Type here" class="form-control" rows="5"></textarea>
+		</div>
+
+<div class="form-group">
+	<label for="exp-field">EXPERIENCE</label>
+	<textarea id="expfield" placeholder="Type here" class="form-control" rows="5"></textarea>
+</div>
+
+<div class="form-group">
+	<label for="skillfield">SKILLS</label>
+	<textarea id="skillfield" placeholder="Type here" class="form-control" rows="5"></textarea>
+</div>
+
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="button-group">
+	<button onclick="generateResume()">RESUME-GENERATE</button>
+</div>
+
+<!-- TEMPLET GENERATE -->
+ <div class="container" id="Templet-generate" style="display: none;">
+
+	<div class="Row">
+		<div class="first-column">
+
+			<div class="container">
+				<p id="firstnametemp">NEHA ARSHAD</p>
+				<p id="lastnametemp">MUHAMMAD ARSHAD ALI</p>
+				<P id="phonetemp">+923332750880</P>
+				<P id="emailtemp">bintearshada@gmail.com</P>
+				<p id="Addresstemp">North karachi</p>
+
+				<hr/>
+
+				<p>
+					<a id="fbtemp"  href="##">https://www.facebook.com</a>
+				</p>
+				<p>
+					<a id="instatemp"  href="##">https://www.Instagram.com</a>
+				</p>
+				<p>
+					<a id="linkdintemp" href="##">https://www.Linkdin.com</a>
+				</p>
+				<p>
+					<a id="githubtemp" href="##">https://www.github.com</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="second-column">
+			<h1 id="name2temp">NEHA ARSHAD</h1>
+
+			<div class="card">
+				<div class="card-header">
+					<h3>SKILLS</h3>
+				</div>
+				<div class="card-body">
+					<ul id="skiltemp">
+						<li>Ability to delegate Responsibilties</li>
+						<li>Excelent communication</li>
+						<li>Html</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+						<li>Typescript</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header">
+					<h3>EXPERIENCE</h3>
+				</div>
+				<div class="card-body">
+					<p id="exptemp"> 
+						Designed and developed a personal portfolio to showcase my projects, skills, and resume using HTML, CSS, and JavaScript.Assisted in web development projects using HTML, CSS, and JavaScript.Developed a responsive web application using React.js and TypeScript.Designed and developed a series of command-line interface (CLI) tools using Node.js and TypeScript to automate repetitive tasks and improve developer efficiency.</p>
+				</div>
+			</div>
+
+	<div class="card">
+				<div class="card-header">
+					<h3>EDUCTION</h3>
+				</div>
+				<div class="card-body">
+					<ul id="edutemp">
+						<li Matriculation in Science></li>
+						<li Intermediate in Science group></li> 
+						<li Master in Arts></li>
+						<li	Certified cloud Applied Generative AI Engineer (Gen Eng) In process></li>
+					</ul>
+				</div>
+			</div>
+
+			</div>
+
+
+		</div>
+	</div> 
+  </div>
+
+
+
+	
+	
+	<script src="data.js"></script>
+</body>
+</html>
