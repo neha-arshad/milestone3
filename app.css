@@ -10,6 +10,7 @@
 
 .first-column{
 	background-color: #e6e6fa;
+	border-radius: 5px;
 }
 
 .first-column p {
@@ -18,6 +19,7 @@
 		 color: #534dab;
 		font-style: italic;
 		text-decoration: none;
+		text-align: center;
 }
 
 .first-column a {
