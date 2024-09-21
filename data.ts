@@ -24,7 +24,7 @@ const experience = (document.getElementById("expfield") as HTMLTextAreaElement).
 
 const skills = (document.getElementById("skillfield") as HTMLTextAreaElement).value;
 
-  //resume template
+//resume template
 (document.getElementById("firstnametemp") as HTMLElement).innerText = name;
 
 (document.getElementById("lastnametemp") as HTMLElement).innerText = name;
@@ -49,10 +49,10 @@ const skills = (document.getElementById("skillfield") as HTMLTextAreaElement).va
 
   (document.getElementById("skiltemp") as HTMLElement).innerHTML = `<li>${skills}</li>`;
 
-// Show the resume template and hide the input form
+// Show resume templete
 (document.getElementById("Templet-generate") as HTMLElement).style.display ="block";
 
+//hide form nd button
 (document.getElementById("RESUME-GENERATE") as HTMLElement).style.display ="none";
 
 }
-

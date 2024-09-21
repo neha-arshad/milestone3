@@ -24,7 +24,8 @@ function generateResume() {
     document.getElementById("edutemp").innerHTML = "<li>".concat(education, "</li>");
     document.getElementById("exptemp").innerText = experience;
     document.getElementById("skiltemp").innerHTML = "<li>".concat(skills, "</li>");
-    // Show the resume template and hide the input form
+    // Show resume templete
     document.getElementById("Templet-generate").style.display = "block";
+    //hide form nd button
     document.getElementById("RESUME-GENERATE").style.display = "none";
 }
